@@ -93,7 +93,7 @@ public class AccessibilityServiceInsta extends AccessibilityService {
 
         lastdata = sharedPreferences.getString("LAST_INSTAGRAM_MESSAGE_OUTPUT", "LAST_INSTAGRAM_MESSAGE_OUTPUT");
 
-        if (!lastdata.equals(data) && data != null && data != "" && !lastdata.equals("LAST_INSTAGRAM_MESSAGE_OUTPUT")) {
+        if (!lastdata.equals(data) && data != null && data != "") {
             Toast.makeText(this, data, Toast.LENGTH_LONG).show();
             Log.d("data", data);
             sharedPreferences.edit().putString("LAST_INSTAGRAM_MESSAGE_OUTPUT", data).apply();
